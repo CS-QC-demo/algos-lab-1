@@ -14,6 +14,7 @@ public class Robbery {
 	) {
 		// fill in here, change the return
 		// an attempt
+		// more code
 			return 0;
 	}
 
@@ -24,6 +25,7 @@ public class Robbery {
 	) {
 		// fill in here, change the return
 		// another attempt
+		// more code
 		return 0;
 	}
 
