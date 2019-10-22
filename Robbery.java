@@ -13,7 +13,23 @@ public class Robbery {
 		int[] worths
 	) {
 		// fill in here, change the return
+		// create a table n x C to hold all the values.
+		int[sizes.length+1][capacity+1];
+		// call the helper function reccursively to fill that table and return the max.
 			return 2;
+	}
+	public int maximizeRobWorth(
+		int capacity,
+		int[] sizes,
+		int[] worths,
+		int[][] wTable
+	) {
+	  // fill the first level of the table with zeros
+	  // for each item
+	  // for each capacity
+	  // if weight[i-1]>capacity,Table[i,j] = Table[i-1,j]
+	  // else Table[i,j] = Max(Table[i-1,j],worth[i] + Table[i-1,capacity-size[i]])
+	  // return Table[items][capacity];
 	}
 
 	public int maximizeRobWorthBottomUp(
